@@ -18,8 +18,7 @@ const ContactPage = () => (
           name="contact-form"
           method="post"
           action="/contact"
-          data-netlify="true"
-          netlify-honeypot="bot-field">
+          data-netlify="true">
           <div className="group">
             <input type="text" name="personal-name" required />
             <span className="highlight" />
@@ -38,7 +37,6 @@ const ContactPage = () => (
             <span className="bar" />
             <label>Massage</label>
           </div>
-          <div data-netlify-recaptcha />
           <div className="actions">
           <button>Send</button>
           </div>
