@@ -21,7 +21,7 @@ const ContactPage = () => (
           data-netlify="true"
           netlify-honeypot="bot-field">
           <div className="group">
-            <input type="text" name="name" required />
+            <input type="text" name="personal-name" required />
             <span className="highlight" />
             <span className="bar" />
             <label>Name</label>
