@@ -356,6 +356,22 @@ header {
   }
 }
 
+// @media screen and (min-width: 769px) and (max-width: 1000px) {
+//   main {
+//     h1.lg-heading {
+//       font-size: 5rem;
+//     }
+//   }
+// }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  main {
+    h1.lg-heading {
+      font-size: 7rem;
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
