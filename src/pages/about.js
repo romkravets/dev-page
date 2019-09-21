@@ -15,7 +15,7 @@ const AboutPage = () => (
         </h1>
         <h2 className="sm-heading">Let me tell you a few things...</h2>
         <div className="about-info">
-          <img src={portrait} alt="John Doe" className="bio-image" />
+          <img src={portrait} alt="Roman Kravets" className="bio-image" />
 
           <div className="bio">
             <h3 className="text-secondary">BIO</h3>

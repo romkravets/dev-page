@@ -34,17 +34,6 @@ body {
  //max-width: 1400px;
 }
 
-// .logo {
-//   position: absolute;
-//   z-index: 3;
-//   left: 35px;
-//   top: 35px;
-//   cursor: pointer;
-//   font-family: $alternate-gothic;
-//   font-size: 2em;
-//   text-transform: uppercase;
-// }
-
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -94,7 +83,6 @@ body {
   float: left;
   width: 50%;
   height: 100vh;
-  //height: auto;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -199,10 +187,14 @@ header {
   padding: 4rem;
   background:  $body-bgc;
   min-height: 100vh;
+  &__contact {
+    padding-top: 0;
+    line-height: 1;
+  }
 }
 
 .home {
-  background: url(../images/background.png);
+  background: url(../images/background.jpg);
   min-height: 320px;
   height: 100vh;
   background-position: center;
@@ -382,32 +374,24 @@ header {
     &__description {
     padding-left: 2.5rem;
     transform: translate(-5%, -50%);
-    //margin-right: -50%;
     }
   }
   ul.menu-nav, div.menu-branding {
     float: none;
     width: 100%;
     min-height: 0;
-    //height: auto;
   }
   ul.menu-nav.show, div.menu-branding.show {
     transform: translate3d(0, 0, 0);
   }
   .menu-nav {
     height: 75vh;
-    //height: auto;
     transform: translate3d(-100%, 0, 0);
     font-size: 24px;
   }
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0);
-    .portrait {
-      background: url("../images/portrait_small.jpg");
-      width: 150px;
-      height: 150px;
-    }
   }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
@@ -448,25 +432,19 @@ header {
   font-size: 2em;
 }
 
-* { box-sizing:border-box; }
-
-/* basic stylings ------------------------------------------ */
-.container {
-  font-family:'Roboto';
-  width:600px;
-  margin:30px auto 0;
-  display:block;
+.container-form {
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
   background:$body-bgc;
-  padding:10px 50px 50px;
+  padding:0 6rem;
 }
-
-h2 small {
-  font-weight:normal;
-  color:#888;
-  display:block;
+.form {
+  &__area {
+    display: flex;
+    flex-direction: column;
+  }
 }
-.footer 	{ text-align:center; }
-.footer a  { color:#53B2C8; }
 
 /* form starting stylings ------------------------------- */
 .group {
@@ -481,14 +459,14 @@ input, textarea {
   width:300px;
   border:none;
   border-bottom:1px solid #757575;
+  color: $main-color;
 }
-input:focus { outline:none; }
+textarea, input:focus { outline:none; }
 
 /* LABEL ======================================= */
 label {
-  color:#999;
+  color:$main-color;
   font-size:18px;
-  font-weight:normal;
   position:absolute;
   pointer-events:none;
   left:5px;
@@ -499,10 +477,10 @@ label {
 }
 
 /* active state */
-input:focus ~ label, input:valid ~ label {
+input:focus ~ label, input:valid ~ label, textarea:focus ~ label, textarea:valid ~ label  {
   top:-20px;
   font-size:14px;
-  color:#5264AE;
+  color:$accent-color;
 }
 
 /* BOTTOM BARS ================================= */
@@ -513,7 +491,7 @@ input:focus ~ label, input:valid ~ label {
   width:0;
   bottom:1px;
   position:absolute;
-  background:#5264AE;
+  background:$accent-color;
   transition:0.2s ease all;
   -moz-transition:0.2s ease all;
   -webkit-transition:0.2s ease all;
@@ -526,7 +504,7 @@ input:focus ~ label, input:valid ~ label {
 }
 
 /* active state */
-input:focus ~ .bar:before, input:focus ~ .bar:after {
+input:focus ~ .bar:before, input:focus ~ .bar:after, textarea:focus ~ .bar:before, textarea:focus ~ .bar:after {
   width:50%;
 }
 
@@ -542,7 +520,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
 }
 
 /* active state */
-input:focus ~ .highlight {
+input:focus ~ .highlight, textarea:focus ~ .highlight {
   -webkit-animation:inputHighlighter 0.3s ease;
   -moz-animation:inputHighlighter 0.3s ease;
   animation:inputHighlighter 0.3s ease;
