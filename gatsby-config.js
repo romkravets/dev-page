@@ -1,11 +1,10 @@
 module.exports = {
-  pathPrefix: "/https://github.com/romkravets/dev-page.git",
   siteMetadata: {
     title: `Rom Kravets`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
-  pathPrefix: "/-gatsby-starter",
+  pathPrefix: "/dev-page.git",
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
