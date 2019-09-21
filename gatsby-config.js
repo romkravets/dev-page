@@ -1,4 +1,5 @@
-module.exports = {
+const cfg = {
+//module.exports = {
   siteMetadata: {
     title: `Rom Kravets`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
@@ -31,4 +32,14 @@ module.exports = {
       },
     },
   ],
-}
+};
+  if (process.env.CONTEXT === "production") {
+    const googleAnalyticsCfg = {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-148411551-1" // <- your tracking ID
+      }
+    };
+    cfg.plugins.push(googleAnalyticsCfg);
+  }
+module.exports = cfg;

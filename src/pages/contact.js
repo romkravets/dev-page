@@ -14,24 +14,33 @@ const ContactPage = () => (
         </h1>
         <h2 className="sm-heading">This is how you can reach me...</h2>
         <div className="container">
-        <form>
+        <form
+          name="contact-form"
+          method="post"
+          action="/contact"
+          data-netlify="true"
+          netlify-honeypot="bot-field">
           <div className="group">
-            <input type="text" required />
+            <input type="text" name="personal-name" required />
             <span className="highlight" />
             <span className="bar" />
             <label>Name</label>
           </div>
           <div className="group">
-            <input type="text" required />
+            <input type="text" name="email" required />
             <span className="highlight" />
             <span className="bar" />
             <label>Email</label>
           </div>
           <div className="group">
-            <textarea type="text" required  rows="4" cols="50"/>
+            <textarea type="text" name="message" required  rows="4" cols="50"/>
             <span className="highlight" />
             <span className="bar" />
             <label>Massage</label>
+          </div>
+          <div data-netlify-recaptcha />
+          <div className="actions">
+          <button>Send</button>
           </div>
         </form>
       </div>
