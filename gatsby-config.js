@@ -1,4 +1,5 @@
-module.exports = {
+const cfg = {
+//module.exports = {
   siteMetadata: {
     title: `Roman Kravets`,
     description: `Web Developer, Programmer, HTML & CSS Coder. Roman Kravets is a Ukrainian web frontend developer.`,
@@ -31,4 +32,14 @@ module.exports = {
       },
     },
   ],
-}
+};
+  if (process.env.CONTEXT === "production") {
+    const googleAnalyticsCfg = {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-148411551-1" // <- your tracking ID
+      }
+    };
+    cfg.plugins.push(googleAnalyticsCfg);
+  }
+module.exports = cfg;
