@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Rom Kravets`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Roman Kravets`,
+    description: `Web Developer, Programmer, HTML & CSS Coder. Roman Kravets is a Ukrainian web frontend developer.`,
     author: `@gatsbyjs`,
   },
   pathPrefix: "/dev-page.git",
