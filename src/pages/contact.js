@@ -33,6 +33,9 @@ const ContactPage = () => (
             <span className="bar" />
             <label>Massage</label>
           </div>
+          <div className="actions">
+            <input type="submit" value="Send Message" className="button"></input>
+          </div>
         </form>
       </div>
       </main>
