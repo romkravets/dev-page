@@ -116,20 +116,6 @@ body {
   width: 50%;
   height: 100vh;
   overflow: hidden;
-  //background: $body-bgc;
-  //transform: translate3d(0, 100%, 0);
-  //transition: all 0.5s ease-out;
-  // &.show {
-  //   transform: translate3d(0, 0, 0);
-  // }
-  // .portrait {
-  //   width: 250px;
-  //   height: 250px;
-  //   background: url("../images/portrait.jpg");
-  //   background-size: cover;
-  //   border-radius: 50%;
-  //   border: solid 3px rgb(238, 206, 26);
-  // }
 }
 
 .menu {
@@ -216,7 +202,7 @@ header {
 }
 
 .home {
-  background: url(../images/background.jpg);
+  background: url(../images/background.png);
   min-height: 320px;
   height: 100vh;
   background-position: center;
