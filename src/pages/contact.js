@@ -19,6 +19,7 @@ const ContactPage = () => (
           method="post"
           action="/contact"
           data-netlify="true">
+             <input type="hidden" name="form-name" value="contact-form" />
           <div className="group">
             <input type="text" name="personal-name" required />
             <span className="highlight" />
