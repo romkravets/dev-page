@@ -14,7 +14,12 @@ const ContactPage = () => (
         </h1>
         <h2 className="sm-heading">This is how you can reach me...</h2>
         <div className="container">
-        <form method="POST" data-netlify="true">
+        <form
+          name="contact-form"
+          method="post"
+          action="/contact"
+          data-netlify="true"
+          netlify-honeypot="bot-field">
           <div className="group">
             <input type="text" name="name" required />
             <span className="highlight" />
@@ -33,8 +38,9 @@ const ContactPage = () => (
             <span className="bar" />
             <label>Massage</label>
           </div>
+          <div data-netlify-recaptcha />
           <div className="actions">
-            <input type="submit" value="Send Message" className="button"></input>
+          <button>Send</button>
           </div>
         </form>
       </div>
