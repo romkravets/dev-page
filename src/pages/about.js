@@ -15,45 +15,36 @@ const AboutPage = () => (
         </h1>
         <h2 className="sm-heading">Let me tell you a few things...</h2>
         <div className="about-info">
-          <img src={portrait} alt="Roman Kravets" className="bio-image" />
+          <img src={portrait} alt="Roman Kravets Web Developer, Programmer, HTML & CSS Coder" className="bio-image" />
 
           <div className="bio">
             <h3 className="text-secondary">BIO</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
-              magni nam nisi quae vitae? Quod molestiae ipsa autem natus eum vel
-              ducimus nulla harum voluptatem eligendi! Unde, reiciendis?
-              Praesentium, laborum.
+            I have a pedagogical education and I have been working as a teacher of Computer Science in two schools at the same time for last 4 years. In my free from the work time I'm involved in self education  in web development area: completing additional courses, studying online and practicing at home. Now I have enough knowledge and skills to work as a web developer.
             </p>
           </div>
 
           <div className="job job-1">
-            <h3>123 Webshop</h3>
+            <h3>Freelancer</h3>
             <h6>Full Stack Developer</h6>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates perferendis totam enim. Nesciunt porro dolores expedita
-              dolor necessitatibus deserunt nemo.
+            – Hello! I’m a skilled front-end developer with +1 years of experience in UI/UX design, application development. I'm involved in self education in web development area: completing additional courses, studying online and practicing at development studio or freelance.  I strive to craft precise, responsive, fast, easy-to-use environments with both strong purpose and great looks.
             </p>
           </div>
 
           <div className="job job-2">
-            <h3>Designers ABC</h3>
+            <h3>Designers</h3>
             <h6>Front End Developer</h6>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates perferendis totam enim. Nesciunt porro dolores expedita
-              dolor necessitatibus deserunt nemo.
+            – Hello! I’m a skilled front-end developer with +1 years of experience in UI/UX design, application development. I'm involved in self education in web development area: completing additional courses, studying online and practicing at development studio or freelance.  I strive to craft precise, responsive, fast, easy-to-use environments with both strong purpose and great looks.
             </p>
           </div>
 
           <div className="job job-3">
-            <h3>Webworks</h3>
+            <h3>Graphic works</h3>
             <h6>Graphic Designer</h6>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates perferendis totam enim. Nesciunt porro dolores expedita
-              dolor necessitatibus deserunt nemo.
+            – Hello! I’m a skilled front-end developer with +1 years of experience in UI/UX design, application development. I'm involved in self education in web development area: completing additional courses, studying online and practicing at development studio or freelance.  I strive to craft precise, responsive, fast, easy-to-use environments with both strong purpose and great looks.
             </p>
           </div>
         </div>
