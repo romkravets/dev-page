@@ -14,7 +14,7 @@ const ContactPage = () => (
         </h1>
         <h2 className="sm-heading">This is how you can reach me...</h2>
         <div className="container">
-        <form>
+        <form name="contact" method="POST" data-netlify="true">
           <div className="group">
             <input type="text" required />
             <span className="highlight" />
