@@ -345,7 +345,7 @@ header {
 }
 
 .project__inner {
-  max-width: 950px;
+  max-width: 70rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -550,6 +550,9 @@ header {
 }
 
 @media screen and (max-width: 600px) {
+  .work {
+    padding: 0;
+  }
   main {
     padding: 2rem;
     #home h1 {

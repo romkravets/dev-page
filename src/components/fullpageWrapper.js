@@ -8,6 +8,7 @@ const FullpageWrapper = fullpageProps => {
   <ReactFullpage {...fullpageProps}
   navigation
   // autoScrolling = {false}
+  responsiveWidth = {1100}
   licenseKey={"YOUR_KEY_HERE"}
   scrollingSpeed={700}
   sectionsColor={["#282c34", "#282c34", "#0798ec"]}
@@ -40,7 +41,7 @@ const FullpageWrapper = fullpageProps => {
               <div className="project__details" style={{color: '#ffffff', backgroundColor: '#007462'}}>
                 <div className="project__details-side project__details-side_left">
                   <p className="project__description">Fortec</p>
-                  <a className="project__link" href="https://youtility.co.uk" target="_blank" style={{color: '#ffffff'}}>Visit site</a>
+                  <a className="project__link" href="#" target="_blank" style={{color: '#ffffff'}}>Visit site</a>
                 </div>
                 <div className="project__details-side project__details-side_right">
                   <ul className="project__stack">
@@ -66,8 +67,8 @@ const FullpageWrapper = fullpageProps => {
                 </video></a>
               <div className="project__details" style={{color: '#ffffff', backgroundColor: '#10C9C3'}}>
                 <div className="project__details-side project__details-side_left">
-                  <p className="project__description">Fortec</p>
-                  <a className="project__link" href="https://youtility.co.uk" target="_blank" style={{color: '#ffffff'}}>Visit site</a>
+                  <p className="project__description">Piroll</p>
+                  <a className="project__link" href="#" target="_blank" style={{color: '#ffffff'}}>Visit site</a>
                 </div>
                 <div className="project__details-side project__details-side_right">
                   <ul className="project__stack">
