@@ -20,31 +20,31 @@ const AboutPage = () => (
           <div className="bio">
             <h3 className="text-secondary">BIO</h3>
             <p>
-            I have a pedagogical education and I have been working as a teacher of Computer Science in two schools at the same time for last 4 years. In my free from the work time I'm involved in self education  in web development area: completing additional courses, studying online and practicing at home. Now I have enough knowledge and skills to work as a web developer.
+            – Hello! I’m a skilled front-end developer with +1 years of experience. I'm involved in self education in web development area: completing additional courses, studying online and practicing at development studio and freelance. I strive to craft precise, responsive, fast, easy-to-use environments with both strong purpose and great looks.
             </p>
           </div>
 
           <div className="job job-1">
-            <h3>Freelancer</h3>
-            <h6>Full Stack Developer</h6>
+            <h3>HTML&CSS code</h3>
+            <h6></h6>
             <p>
-            – Hello! I’m a skilled front-end developer with +1 years of experience in UI/UX design, application development. I'm involved in self education in web development area: completing additional courses, studying online and practicing at development studio or freelance.  I strive to craft precise, responsive, fast, easy-to-use environments with both strong purpose and great looks.
+            
             </p>
           </div>
 
           <div className="job job-2">
-            <h3>Designers</h3>
-            <h6>Front End Developer</h6>
+            <h3>Front End Developer</h3>
+            <h6></h6>
             <p>
-            – Hello! I’m a skilled front-end developer with +1 years of experience in UI/UX design, application development. I'm involved in self education in web development area: completing additional courses, studying online and practicing at development studio or freelance.  I strive to craft precise, responsive, fast, easy-to-use environments with both strong purpose and great looks.
+            
             </p>
           </div>
 
           <div className="job job-3">
-            <h3>Graphic works</h3>
-            <h6>Graphic Designer</h6>
+            <h3>Graphic Designer</h3>
+            <h6></h6>
             <p>
-            – Hello! I’m a skilled front-end developer with +1 years of experience in UI/UX design, application development. I'm involved in self education in web development area: completing additional courses, studying online and practicing at development studio or freelance.  I strive to craft precise, responsive, fast, easy-to-use environments with both strong purpose and great looks.
+            
             </p>
           </div>
         </div>
