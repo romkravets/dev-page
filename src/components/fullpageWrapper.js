@@ -1,9 +1,9 @@
 import React from "react"
 import ReactFullpage from "@fullpage/react-fullpage"
-import FortecImg from "../video/fortec.png"
-import AppleImg from "../video/apple.png"
-import CoffeeStoreImg from "../video/coffee-store.png"
-import CheshireCatImg from "../video/cheshire-cat.png"
+// import FortecImg from "../video/fortec"
+// import AppleImg from "../video/apple"
+// import CoffeeStoreImg from "../video/coffee-store"
+// import CheshireCatImg from "../video/cheshire-cat"
 
 const FullpageWrapper = fullpageProps => {
   return (
@@ -33,7 +33,7 @@ const FullpageWrapper = fullpageProps => {
             Move down
           </button>
         </div>  */}
-          <div className="section">
+          {/* <div className="section">
             <div className="project__inner">
             <h2 className="project__name" style={{color: '#ffffff'}}>Cheshire Cat</h2>
             <div className="project__content">
@@ -142,7 +142,7 @@ const FullpageWrapper = fullpageProps => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <div className="section">
         </div>
         <div className="section">
