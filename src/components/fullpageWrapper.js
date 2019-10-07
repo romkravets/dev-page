@@ -1,9 +1,9 @@
 import React from "react"
 import ReactFullpage from "@fullpage/react-fullpage"
 import FortecImg from "../images/fortec.png"
-// import AppleImg from "../video/apple"
-// import CoffeeStoreImg from "../video/coffee-store"
-// import CheshireCatImg from "../video/cheshire-cat"
+import AppleImg from "../images/apple.png"
+import CoffeeStoreImg from "../images/coffee-store.png"
+import CheshireCatImg from "../images/cheshire-cat.png"
 
 const FullpageWrapper = fullpageProps => {
   return (
@@ -13,7 +13,7 @@ const FullpageWrapper = fullpageProps => {
   responsiveWidth = {1100}
   licenseKey={"YOUR_KEY_HERE"}
   scrollingSpeed={700}
-  sectionsColor={["#282c34", "#282c34", "#282c34"]}
+  sectionsColor={["#282c34", "#282c34", "#282c34", "#282c34"]}
     scrollHorizontallyKey={"YOUR KEY HERE"} render={({ state, fullpageApi }) => {
       console.log("render prop change", state);
       if (state.callback === "onLeave") {
@@ -32,8 +32,8 @@ const FullpageWrapper = fullpageProps => {
           <button onClick={() => fullpageApi.moveSectionDown()}>
             Move down
           </button>
-        </div>  */}
-          {/* <div className="section">
+        </div> */}
+        <div className="section">
             <div className="project__inner">
             <h2 className="project__name" style={{color: '#ffffff'}}>Cheshire Cat</h2>
             <div className="project__content">
@@ -60,7 +60,7 @@ const FullpageWrapper = fullpageProps => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
         <div className="section">
             <div className="project__inner">
             <h2 className="project__name" style={{color: '#ffffff'}}>Fortec</h2>
@@ -89,7 +89,7 @@ const FullpageWrapper = fullpageProps => {
             </div>
           </div>
         </div>
-        {/* <div className="section">
+        <div className="section">
         <div className="project__inner">
             <h2 className="project__name" style={{color: '#ffffff'}}>Apple</h2>
             <div className="project__content">
@@ -142,7 +142,7 @@ const FullpageWrapper = fullpageProps => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>);
     } } />);
 }
