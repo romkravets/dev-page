@@ -51,9 +51,7 @@ const FullpageWrapper = fullpageProps => {
                   <li>CSS</li>
                   <li>Bootstrap</li>
                   <li>jQuery</li>
-                  <li>PHP</li>
-                  <li>WordPress</li>
-                  <li>Vagrant</li>
+                  <li>Gulp</li>
                   </ul>
                   <span className="project__year">2019</span>
                 </div>
