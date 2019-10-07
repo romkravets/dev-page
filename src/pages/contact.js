@@ -44,9 +44,11 @@ const ContactPage = () => (
             <label>Massage</label>
           </div>
           <div className="actions">
-          <button>Send</button>
+          <button className="contact-btn btn-light">Send</button>
           </div>
-          <SocIcons/>
+          <div className="contact-soc-icons">
+            <SocIcons/>
+          </div>
         </form>
       </div>
       </main>
