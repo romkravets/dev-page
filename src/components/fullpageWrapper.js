@@ -1,17 +1,19 @@
 import React from "react"
 import ReactFullpage from "@fullpage/react-fullpage"
-import FortecWebm from "../video/fortec.webm"
-import PirollWebm from "../video/piroll.webm"
+import FortecImg from "../video/fortec.png"
+import AppleImg from "../video/apple.png"
+import CoffeeStoreImg from "../video/coffee-store.png"
+import CheshireCatImg from "../video/cheshire-cat.png"
 
 const FullpageWrapper = fullpageProps => {
   return (
   <ReactFullpage {...fullpageProps}
   navigation
-  // autoScrolling = {false}
+  autoScrolling = {false}
   responsiveWidth = {1100}
   licenseKey={"YOUR_KEY_HERE"}
   scrollingSpeed={700}
-  sectionsColor={["#282c34", "#282c34", "#0798ec"]}
+  sectionsColor={["#282c34", "#282c34", "#282c34"]}
     scrollHorizontallyKey={"YOUR KEY HERE"} render={({ state, fullpageApi }) => {
       console.log("render prop change", state);
       if (state.callback === "onLeave") {
@@ -26,27 +28,56 @@ const FullpageWrapper = fullpageProps => {
             My
             <span className="text-secondary">Work</span>
           </h1>
-          <h2 className="sm-heading">Check out some of my projects...</h2> 
+          <h2 className="sm-heading">Check out some of my projects...</h2>
           <button onClick={() => fullpageApi.moveSectionDown()}>
             Move down
           </button>
         </div>  */}
-        <div className="section">
+          <div className="section">
             <div className="project__inner">
-            <h2 className="project__name" style={{color: '#ffffff'}}>Fortec</h2>
+            <h2 className="project__name" style={{color: '#ffffff'}}>Cheshire Cat</h2>
             <div className="project__content">
-              <a href="#" target="_blank">
-              <video className="project__media" src={FortecWebm} type="video/webm" data-autoplay data-keepplaying>
-                </video></a>
-              <div className="project__details" style={{color: '#ffffff', backgroundColor: '#007462'}}>
+              <a href="https://romkravets.github.io/simple-template/" target="_blank">
+              <img className="project__media" src={CheshireCatImg}>
+                </img></a>
+              <div className="project__details" style={{color: '#ffffff', backgroundColor: '#186E64', pointerEvents: 'none'}}>
                 <div className="project__details-side project__details-side_left">
                   <p className="project__description">Fortec</p>
-                  <a className="project__link" href="#" target="_blank" style={{color: '#ffffff'}}>Visit site</a>
+                  <a className="project__link" href="https://romkravets.github.io/simple-template/" target="_blank" style={{color: '#ffffff'}}>Visit site</a>
                 </div>
                 <div className="project__details-side project__details-side_right">
                   <ul className="project__stack">
                   <li>HTML</li>
                   <li>CSS</li>
+                  <li>Bootstrap</li>
+                  <li>jQuery</li>
+                  <li>PHP</li>
+                  <li>WordPress</li>
+                  <li>Vagrant</li>
+                  </ul>
+                  <span className="project__year">2019</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="section">
+            <div className="project__inner">
+            <h2 className="project__name" style={{color: '#ffffff'}}>Fortec</h2>
+            <div className="project__content">
+              <a href="https://fortec.com.ua" target="_blank">
+              <img className="project__media" src={FortecImg}>
+                </img></a>
+              <div className="project__details" style={{color: '#ffffff', backgroundColor: '#007462', pointerEvents: 'none'}}>
+                <div className="project__details-side project__details-side_left">
+                  <p className="project__description">Fortec</p>
+                  <a className="project__link" href="https://fortec.com.ua" target="_blank" style={{color: '#ffffff'}}>Visit site</a>
+                </div>
+                <div className="project__details-side project__details-side_right">
+                  <ul className="project__stack">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
                   <li>jQuery</li>
                   <li>PHP</li>
                   <li>WordPress</li>
@@ -60,21 +91,49 @@ const FullpageWrapper = fullpageProps => {
         </div>
         <div className="section">
         <div className="project__inner">
-            <h2 className="project__name" style={{color: '#ffffff'}}>Piroll</h2>
+            <h2 className="project__name" style={{color: '#ffffff'}}>Apple</h2>
             <div className="project__content">
-              <a href="#" target="_blank">
-              <video className="project__media" src={PirollWebm} type="video/webm" data-autoplay data-keepplaying>
-                </video></a>
-              <div className="project__details" style={{color: '#ffffff', backgroundColor: '#10C9C3'}}>
+              <a href="https://romkravets.github.io/apple/apple.html" target="_blank">
+              <img className="project__media" src={AppleImg}>
+                </img></a>
+              <div className="project__details" style={{color: '#ffffff', backgroundColor: '#212121', pointerEvents: 'none'}}>
                 <div className="project__details-side project__details-side_left">
-                  <p className="project__description">Piroll</p>
-                  <a className="project__link" href="#" target="_blank" style={{color: '#ffffff'}}>Visit site</a>
+                  <p className="project__description">Apple</p>
+                  <a className="project__link" href="https://romkravets.github.io/apple/apple.html" target="_blank" style={{color: '#ffffff'}}>Visit site</a>
+                </div>
+                <div className="project__details-side project__details-side_right">
+                  <ul className="project__stack">
+                    <li>HTML</li>
+                    <li>SCSS</li>
+                    <li>Bootstrap</li>
+                    <li>jQuery</li>
+                    <li>BEM</li>
+                    <li>Webpack</li>
+                  </ul>
+                  <span className="project__year">2018</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="section">
+        <div className="project__inner">
+            <h2 className="project__name" style={{color: '#ffffff'}}>Coffee Store</h2>
+            <div className="project__content">
+              <a href="https://romkravets.github.io/coffee-store/final_project.html#/" target="_blank">
+              <img className="project__media" src={CoffeeStoreImg}>
+                </img></a>
+              <div className="project__details" style={{color: '#ffffff', backgroundColor: '#C7A17A', pointerEvents: 'none'}}>
+                <div className="project__details-side project__details-side_left">
+                  <p className="project__description">CoffeeStore</p>
+                  <a className="project__link" href="https://romkravets.github.io/coffee-store/final_project.html#/" target="_blank" style={{color: '#ffffff'}}>Visit site</a>
                 </div>
                 <div className="project__details-side project__details-side_right">
                   <ul className="project__stack">
                     <li>React</li>
                     <li>React Router</li>
                     <li>SCSS</li>
+                    <li>Flexbox</li>
                     <li>BEM</li>
                     <li>Webpack</li>
                   </ul>
