@@ -1,9 +1,9 @@
 import React from "react"
 import ReactFullpage from "@fullpage/react-fullpage"
-import FortecImg from "../video/fortec.png"
-import AppleImg from "../video/apple.png"
-import CoffeeStoreImg from "../video/coffee-store.png"
-import CheshireCatImg from "../video/cheshire-cat.png"
+import FortecImg from "../images/fortec.png"
+import AppleImg from "../images/apple.png"
+import CoffeeStoreImg from "../images/coffee-store.png"
+import CheshireCatImg from "../images/cheshire-cat.png"
 
 const FullpageWrapper = fullpageProps => {
   return (
@@ -13,7 +13,7 @@ const FullpageWrapper = fullpageProps => {
   responsiveWidth = {1100}
   licenseKey={"YOUR_KEY_HERE"}
   scrollingSpeed={700}
-  sectionsColor={["#282c34", "#282c34", "#282c34"]}
+  sectionsColor={["#282c34", "#282c34", "#282c34", "#282c34"]}
     scrollHorizontallyKey={"YOUR KEY HERE"} render={({ state, fullpageApi }) => {
       console.log("render prop change", state);
       if (state.callback === "onLeave") {
@@ -32,8 +32,8 @@ const FullpageWrapper = fullpageProps => {
           <button onClick={() => fullpageApi.moveSectionDown()}>
             Move down
           </button>
-        </div>  */}
-          <div className="section">
+        </div> */}
+        <div className="section">
             <div className="project__inner">
             <h2 className="project__name" style={{color: '#ffffff'}}>Cheshire Cat</h2>
             <div className="project__content">
@@ -42,7 +42,7 @@ const FullpageWrapper = fullpageProps => {
                 </img></a>
               <div className="project__details" style={{color: '#ffffff', backgroundColor: '#186E64', pointerEvents: 'none'}}>
                 <div className="project__details-side project__details-side_left">
-                  <p className="project__description">Fortec</p>
+                  <p className="project__description">Cheshire Cat</p>
                   <a className="project__link" href="https://romkravets.github.io/simple-template/" target="_blank" style={{color: '#ffffff'}}>Visit site</a>
                 </div>
                 <div className="project__details-side project__details-side_right">
@@ -51,9 +51,7 @@ const FullpageWrapper = fullpageProps => {
                   <li>CSS</li>
                   <li>Bootstrap</li>
                   <li>jQuery</li>
-                  <li>PHP</li>
-                  <li>WordPress</li>
-                  <li>Vagrant</li>
+                  <li>Gulp</li>
                   </ul>
                   <span className="project__year">2019</span>
                 </div>
@@ -143,10 +141,6 @@ const FullpageWrapper = fullpageProps => {
             </div>
           </div>
         </div>
-        {/* <div className="section">
-        </div>
-        <div className="section">
-        </div> */}
       </div>);
     } } />);
 }
