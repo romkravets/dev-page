@@ -38,13 +38,13 @@ const FullpageWrapper = fullpageProps => {
               <div className="project__inner">
                 <h2 className="project__name" style={{ color: '#ffffff' }}>Cheshire Cat</h2>
                 <div className="project__content">
-                  <a href="https://romkravets.github.io/simple-template/" target="_blank">
-                    <img className="project__media" src={CheshireCatImg}>
+                  <a href="https://romkravets.github.io/simple-template/" target="_blank" rel="noopener noreferrer">
+                    <img className="project__media" src={CheshireCatImg} alt="portfolio Roman Kravets">
                     </img></a>
                   <div className="project__details" style={{ color: '#ffffff', backgroundColor: '#186E64', pointerEvents: 'none' }}>
                     <div className="project__details-side project__details-side_left">
                       <p className="project__description">Cheshire Cat</p>
-                      <a className="project__link" href="https://romkravets.github.io/simple-template/" target="_blank" style={{ color: '#ffffff' }}>Visit site</a>
+                      <a className="project__link" href="https://romkravets.github.io/simple-template/" target="_blank" rel="noopener noreferrer" style={{ color: '#ffffff' }}>Visit site</a>
                     </div>
                     <div className="project__details-side project__details-side_right">
                       <ul className="project__stack">
@@ -64,13 +64,12 @@ const FullpageWrapper = fullpageProps => {
               <div className="project__inner">
                 <h2 className="project__name" style={{ color: '#ffffff' }}>Fortec</h2>
                 <div className="project__content">
-                  <a href="https://fortec.com.ua" target="_blank">
-                    <img className="project__media" src={FortecImg}>
+                  <a href="https://fortec.com.ua" target="_blank" rel="noopener noreferrer">
+                    <img className="project__media" src={FortecImg} alt="portfolio Roman Kravets">
                     </img></a>
                   <div className="project__details" style={{ color: '#ffffff', backgroundColor: '#007462', pointerEvents: 'none' }}>
                     <div className="project__details-side project__details-side_left">
                       <p className="project__description">Fortec</p>
-                      <a className="project__link" href="https://fortec.com.ua" target="_blank" style={{ color: '#ffffff' }}>Visit site</a>
                     </div>
                     <div className="project__details-side project__details-side_right">
                       <ul className="project__stack">
@@ -92,13 +91,13 @@ const FullpageWrapper = fullpageProps => {
               <div className="project__inner">
                 <h2 className="project__name" style={{ color: '#ffffff' }}>Apple</h2>
                 <div className="project__content">
-                  <a href="https://romkravets.github.io/apple/apple.html" target="_blank">
-                    <img className="project__media" src={AppleImg}>
+                  <a href="https://romkravets.github.io/apple/apple.html" target="_blank" rel="noopener noreferrer">
+                    <img className="project__media" src={AppleImg} alt="portfolio Roman Kravets">
                     </img></a>
                   <div className="project__details" style={{ color: '#ffffff', backgroundColor: '#212121', pointerEvents: 'none' }}>
                     <div className="project__details-side project__details-side_left">
                       <p className="project__description">Apple</p>
-                      <a className="project__link" href="https://romkravets.github.io/apple/apple.html" target="_blank" style={{ color: '#ffffff' }}>Visit site</a>
+                      <a className="project__link" href="https://romkravets.github.io/apple/apple.html" target="_blank" rel="noopener noreferrer" style={{ color: '#ffffff' }}>Visit site</a>
                     </div>
                     <div className="project__details-side project__details-side_right">
                       <ul className="project__stack">
@@ -119,13 +118,13 @@ const FullpageWrapper = fullpageProps => {
               <div className="project__inner">
                 <h2 className="project__name" style={{ color: '#ffffff' }}>Coffee Store</h2>
                 <div className="project__content">
-                  <a href="https://romkravets.github.io/coffee-store/final_project.html#/" target="_blank">
-                    <img className="project__media" src={CoffeeStoreImg}>
+                  <a href="https://romkravets.github.io/coffee-store/final_project.html#/" target="_blank" rel="noopener noreferrer">
+                    <img className="project__media" src={CoffeeStoreImg} alt="portfolio Roman Kravets">
                     </img></a>
                   <div className="project__details" style={{ color: '#ffffff', backgroundColor: '#C7A17A', pointerEvents: 'none' }}>
                     <div className="project__details-side project__details-side_left">
                       <p className="project__description">CoffeeStore</p>
-                      <a className="project__link" href="https://romkravets.github.io/coffee-store/final_project.html#/" target="_blank" style={{ color: '#ffffff' }}>Visit site</a>
+                      <a className="project__link" href="https://romkravets.github.io/coffee-store/final_project.html#/" target="_blank" rel="noopener noreferrer"  style={{ color: '#ffffff' }}>Visit site</a>
                     </div>
                     <div className="project__details-side project__details-side_right">
                       <ul className="project__stack">
