@@ -8,13 +8,13 @@ class WorkPage extends Component {
     return (
       // <Scrollbars style={{ width: "100%", height: "100vh" }}>
       <div>
-      <SEO title="Work" />
-      <main id="work" className="work">
-        <FullpageWrapper />
-      </main>
-      <Footer />
-    </div>
-    //  </Scrollbars>
+        <SEO title="Work" />
+        <main id="work" className="work">
+          <FullpageWrapper />
+        </main>
+        <Footer />
+      </div>
+      //  </Scrollbars>
     )
   }
 }

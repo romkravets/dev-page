@@ -1,5 +1,5 @@
 import React from "react"
-import SocIcons from  "../components/SocIcons";
+import SocIcons from "../components/SocIcons"
 
 import SEO from "../components/seo"
 
@@ -15,7 +15,7 @@ const IndexPage = () => (
         <h2 className="sm-heading">
           Web Developer, Programmer, HTML & CSS Coder
         </h2>
-        <SocIcons/>
+        <SocIcons />
       </div>
     </main>
   </div>
