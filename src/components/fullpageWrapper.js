@@ -11,6 +11,7 @@ const FullpageWrapper = fullpageProps => {
       navigation
       autoScrolling={false}
       responsiveWidth={768}
+      scrollBar= {true}
       licenseKey={"YOUR_KEY_HERE"}
       scrollingSpeed={700}
       sectionsColor={["#282c34", "#282c34", "#282c34", "#282c34"]}
