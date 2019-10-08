@@ -754,7 +754,9 @@ textarea:focus ~ .highlight {
   animation: inputHighlighter 0.3s ease;
 }
 
-
+// html.fp-enabled {
+//   overflow: hidden!important;
+// }
 @media screen and (min-width: 1171px) {
   .projects {
     -ms-grid-columns: 1fr 0.7rem 1fr 0.7rem 1fr 0.7rem 1fr;
@@ -777,7 +779,7 @@ textarea:focus ~ .highlight {
   }
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (max-width: 850px) {
   #work .project__stack {
     font-size: 16px;
   }
