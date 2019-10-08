@@ -35,20 +35,20 @@ const AboutPage = () => (
 
           <div className="job job-1">
             <h3>HTML&CSS code</h3>
-            <h6></h6>
-            <p></p>
+            {/* <h6></h6>
+            <p></p> */}
           </div>
 
           <div className="job job-2">
             <h3>Front End Developer</h3>
-            <h6></h6>
-            <p></p>
+            {/* <h6></h6>
+            <p></p> */}
           </div>
 
           <div className="job job-3">
             <h3>Graphic Designer</h3>
-            <h6></h6>
-            <p></p>
+            {/* <h6></h6>
+            <p></p> */}
           </div>
         </div>
       </main>
