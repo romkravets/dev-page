@@ -233,16 +233,6 @@ a {
   text-decoration: none;
 }
 
-header {
-  position: fixed;
-  z-index: 2;
-  width: 100%;
-}
-
-.text-secondary {
-  color: $accent-color;
-}
-
 .main-block {
   padding: 4rem;
   background: $body-bgc;
@@ -415,15 +405,6 @@ header {
   color: #fff;
 }
 
-.actions {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 .contact-soc-icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -434,24 +415,12 @@ header {
   margin-top: 2rem;
 }
 
-textarea {
-  resize: none;
-}
-
 .btn-light {
   background: #c4c4c4;
   color: #333;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-#main-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #2b2b2b;
-  color: #fff;
-  height: 60px;
 }
 
 .work {
@@ -461,10 +430,6 @@ textarea {
     display: -ms-flexbox;
     display: flex;
   }
-}
-
-.title-section .fp-tableCell {
-  vertical-align: inherit;
 }
 
 .project__inner {

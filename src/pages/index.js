@@ -10,7 +10,7 @@ const IndexPage = () => (
       <div className="home__description">
         <h1 className="lg-heading">
           Rom
-          <span className="text-secondary">Kravets</span>
+          <span className="text-secondary" style={{ color: 'rgb(238, 206, 26)' }}>Kravets</span>
         </h1>
         <h2 className="sm-heading">
           Web Developer, Programmer, HTML & CSS Coder

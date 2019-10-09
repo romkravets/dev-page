@@ -48,12 +48,13 @@ const ContactPage = () => (
                 required
                 rows="4"
                 cols="50"
+                style={{ resize: 'none' }}
               />
               <span className="highlight" />
               <span className="bar" />
               <label>Massage</label>
             </div>
-            <div className="actions">
+            <div className="actions" style={{display:"flex","WebkitBoxPack":"center","MsFlexPack":"center", justifyContent:"center"}}>
               <button className="contact-btn btn-light">Send</button>
             </div>
             <div className="contact-soc-icons">
