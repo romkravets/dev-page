@@ -1,9 +1,4 @@
-$body-bgc: rgb(68, 68, 68);
-$blue-bgc: rgb(33, 88, 127);
-$main-color: rgb(219, 219, 219);
-$accent-color: rgb(238, 206, 26);
-$maison-neue: "Maison Neue", sans-serif;
-$alternate-gothic: "Alternate Gothic", sans-serif;
+@import '../styles/variables.scss';
 
 * {
   -webkit-box-sizing: border-box;
@@ -684,7 +679,6 @@ textarea:valid ~ label {
   right: 50%;
 }
 
-/* active state */
 input:focus ~ .bar:before,
 input:focus ~ .bar:after,
 textarea:focus ~ .bar:before,
