@@ -83,12 +83,7 @@ class Header extends React.Component {
     })
 
     return (
-      <header>
-        {/* <div className="logo">
-          <Link className="logo__link" to='/'>
-            <span>romkravets</span>
-          </Link>
-        </div> */}
+      <header  style={{ position: 'fixed', zIndex: '2', width: '100%' }}>
         <div className={classBtn} onClick={this.toggleMenu}>
           <div className="btn-line"></div>
           <div className="btn-line"></div>
