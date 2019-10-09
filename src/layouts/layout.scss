@@ -33,16 +33,13 @@ footer {
 
 body {
   background: $body-bgc;
-  color: $main-color;
-  //height: 100%;
-  //min-height: 400px;
+  color: rgb(255, 255, 255);
   height: 100vh;
   margin: 0;
   padding: 0;
   font-family: $maison-neue;
   line-height: 1.5;
   margin: auto;
-  //max-width: 1400px;
 }
 
 .menu-btn {
@@ -480,12 +477,9 @@ textarea {
   font-family: Alternate Gothic, sans-serif;
   font-weight: 500;
   line-height: 1;
-  //text-align: right;
   text-transform: uppercase;
   font-size: 150px;
-  //margin-top: -22.5px;
   margin-bottom: -30px;
-  //padding-right: 50px;
 }
 
 .project__media {
@@ -630,7 +624,6 @@ textarea {
   font-size: 30px;
 }
 
-
 .fa-2x {
   font-size: 2em;
 }
@@ -658,7 +651,6 @@ textarea {
   }
 }
 
-/* form starting stylings ------------------------------- */
 .group {
   position: relative;
   margin-bottom: 45px;
@@ -679,7 +671,6 @@ input:focus {
   outline: none;
 }
 
-/* LABEL ======================================= */
 label {
   color: $main-color;
   font-size: 18px;
@@ -703,7 +694,6 @@ textarea:valid ~ label {
   color: $accent-color;
 }
 
-/* BOTTOM BARS ================================= */
 .bar {
   position: relative;
   display: block;
@@ -737,7 +727,6 @@ textarea:focus ~ .bar:after {
   width: 50%;
 }
 
-/* HIGHLIGHTER ================================== */
 .highlight {
   position: absolute;
   height: 60%;
@@ -748,16 +737,12 @@ textarea:focus ~ .bar:after {
   opacity: 0.5;
 }
 
-/* active state */
 input:focus ~ .highlight,
 textarea:focus ~ .highlight {
   -webkit-animation: inputHighlighter 0.3s ease;
   animation: inputHighlighter 0.3s ease;
 }
 
-// html.fp-enabled {
-//   overflow: hidden!important;
-// }
 @media screen and (min-width: 1171px) {
   .projects {
     -ms-grid-columns: 1fr 0.7rem 1fr 0.7rem 1fr 0.7rem 1fr;

@@ -24,16 +24,6 @@ const FullpageWrapper = fullpageProps => {
         }
         return (
           <div id="fullpage-wrapper">
-            {/* <div className="section title-section work__section-title">
-           <h1 className="lg-heading work__title">
-            My
-            <span className="text-secondary">Work</span>
-          </h1>
-          <h2 className="sm-heading">Check out some of my projects...</h2>
-          <button onClick={() => fullpageApi.moveSectionDown()}>
-            Move down
-          </button>
-        </div> */}
             <div className="section">
               <div className="project__inner">
                 <h2 className="project__name" style={{ color: '#ffffff' }}>Cheshire Cat</h2>
