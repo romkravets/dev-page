@@ -11,7 +11,7 @@ const AboutPage = () => (
       <main id="about" className="main-block">
         <h1 className="lg-heading">
           About
-          <span className="text-secondary">Me</span>
+          <span className="text-secondary" style={{ color: 'rgb(238, 206, 26)' }}>Me</span>
         </h1>
         <h2 className="sm-heading">Let me tell you a few things...</h2>
         <div className="about-info">

@@ -17,7 +17,7 @@ const ContactPage = () => (
       >
         <h1 className="lg-heading">
           Contact
-          <span className="text-secondary">Me</span>
+          <span className="text-secondary" style={{ color: 'rgb(238, 206, 26)' }}>Me</span>
         </h1>
         <h2 className="sm-heading">This is how you can reach me...</h2>
         <div className="container-form">
