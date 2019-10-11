@@ -4,6 +4,9 @@ const cfg = {
     title: `Roman Kravets`,
     description: `Web Developer, Programmer, HTML & CSS Coder. Roman Kravets is a Ukrainian web frontend developer.`,
     author: `@gatsbyjs`,
+    name: "google-site-verification",
+    content: "xFbNak1bwuauy4hcV2j7ZZTdp5cKIII1LBLq6xLDsY4"
+ 
   },
   pathPrefix: "/dev-page.git",
   plugins: [
