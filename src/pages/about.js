@@ -22,7 +22,7 @@ const AboutPage = () => (
           />
 
           <div className="bio">
-            <h3 className="text-secondary">BIO</h3>
+            <h3 className="text-secondary" style={{ color: 'rgb(238, 206, 26)' }}>BIO</h3>
             <p>
               – Hello! I’m a skilled front-end developer with +1 years of
               experience. I'm involved in self education in web development
