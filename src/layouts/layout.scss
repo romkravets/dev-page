@@ -377,45 +377,21 @@ a {
   }
 }
 
-.btn,
-.btn-dark,
 .btn-light {
   display: block;
   padding: 0.6rem 2.8rem;
+  width: 100%;
   border: 0;
   margin-bottom: 0.3rem;
   outline: none;
   cursor: pointer;
+  background: #c4c4c4;
+  color: #333;
 }
 
-.btn:hover,
-.btn-dark:hover,
 .btn-light:hover {
   background: #eece1a;
   color: #000;
-}
-
-.btn-dark {
-  background: black;
-  color: #fff;
-}
-
-.contact-soc-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.btn-light {
-  background: #c4c4c4;
-  color: #333;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .work {
@@ -582,10 +558,6 @@ a {
 .project__year {
   font-family: Alternate Gothic, sans-serif;
   font-size: 30px;
-}
-
-.fa-2x {
-  font-size: 2em;
 }
 
 .container-form {
