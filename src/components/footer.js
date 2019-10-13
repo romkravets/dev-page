@@ -12,7 +12,7 @@ const Footer = () => (
   <footer id="main-footer" style={FooterStyle}>
     © {new Date().getFullYear()}, Built with
     {` `}
-    <a href="https://www.gatsbyjs.org" style={{ color: 'rgb(238, 206, 26)' }}>Gatsby</a> | Inspired by <a href="https://github.com/bradtraversy" style={{ color: 'rgb(238, 206, 26)' }}>Brad Traversy</a>
+    <a href="https://www.gatsbyjs.org" style={{ color: 'rgb(238, 206, 26)' }} target="_blank" rel="noopener noreferrer">Gatsby</a> | Inspired by <a href="https://github.com/bradtraversy" target="_blank" rel="noopener noreferrer" style={{ color: 'rgb(238, 206, 26)' }}>Brad Traversy</a>
   </footer>
 )
 
