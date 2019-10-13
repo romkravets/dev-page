@@ -644,7 +644,6 @@ label {
   -webkit-transition: 0.2s ease all;
 }
 
-/* active state */
 input:focus ~ label,
 input:valid ~ label,
 textarea:focus ~ label,
@@ -713,20 +712,6 @@ textarea:focus ~ .highlight {
   .projects {
     -ms-grid-columns: 1fr 0.7rem 1fr 0.7rem 1fr;
     grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  main {
-    h1.lg-heading {
-      font-size: 7rem;
-    }
-  }
-}
-
-@media screen and (max-width: 850px) {
-  #work .project__stack {
-    font-size: 16px;
   }
 }
 
