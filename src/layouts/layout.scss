@@ -377,45 +377,21 @@ a {
   }
 }
 
-.btn,
-.btn-dark,
 .btn-light {
   display: block;
   padding: 0.6rem 2.8rem;
+  width: 100%;
   border: 0;
   margin-bottom: 0.3rem;
   outline: none;
   cursor: pointer;
+  background: #c4c4c4;
+  color: #333;
 }
 
-.btn:hover,
-.btn-dark:hover,
 .btn-light:hover {
   background: #eece1a;
   color: #000;
-}
-
-.btn-dark {
-  background: black;
-  color: #fff;
-}
-
-.contact-soc-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.btn-light {
-  background: #c4c4c4;
-  color: #333;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .work {
@@ -584,10 +560,6 @@ a {
   font-size: 30px;
 }
 
-.fa-2x {
-  font-size: 2em;
-}
-
 .container-form {
   margin: 0 auto;
   display: -webkit-box;
@@ -644,7 +616,6 @@ label {
   -webkit-transition: 0.2s ease all;
 }
 
-/* active state */
 input:focus ~ label,
 input:valid ~ label,
 textarea:focus ~ label,
@@ -713,20 +684,6 @@ textarea:focus ~ .highlight {
   .projects {
     -ms-grid-columns: 1fr 0.7rem 1fr 0.7rem 1fr;
     grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  main {
-    h1.lg-heading {
-      font-size: 7rem;
-    }
-  }
-}
-
-@media screen and (max-width: 850px) {
-  #work .project__stack {
-    font-size: 16px;
   }
 }
 
