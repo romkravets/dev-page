@@ -4,7 +4,7 @@ import FortecImg from "../images/fortec.png"
 import AppleImg from "../images/apple.png"
 import CoffeeStoreImg from "../images/coffee-store.png"
 import CheshireCatImg from "../images/cheshire-cat.png"
-import HolidayImg from "../images/holiday.png"
+import HolidayImg from "../images/holiday_1.png"
 import CreatorsImg from "../images/creator.png"
 import JoinImg from "../images/join_1.png"
 
