@@ -4,9 +4,9 @@ import FortecImg from "../images/fortec.png"
 import AppleImg from "../images/apple.png"
 import CoffeeStoreImg from "../images/coffee-store.png"
 import CheshireCatImg from "../images/cheshire-cat.png"
-import HolidayImg from "../images/holiday.png"
-import CreatorsImg from "../images/creators.png"
-//import JoinImg from "../images/join.png"
+import HolidayImg from "../images/holiday_1.png"
+import CreatorsImg from "../images/creator.png"
+import JoinImg from "../images/join_1.png"
 
 const FullpageWrapper = fullpageProps => {
   return (
@@ -54,7 +54,7 @@ const FullpageWrapper = fullpageProps => {
               </div>
             </div>
 
-            {/* <div className="section">
+            <div className="section">
               <div className="project__inner">
                 <h2 className="project__name" style={{ color: '#ffffff' }}>Join</h2>
                 <div className="project__content">
@@ -78,7 +78,7 @@ const FullpageWrapper = fullpageProps => {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
 
             <div className="section">
               <div className="project__inner">
@@ -170,23 +170,23 @@ const FullpageWrapper = fullpageProps => {
                 <div className="project__content">
                   <a href="https://romkravets.github.io/template-holiday-landing_page/" target="_blank" rel="noopener noreferrer">
                     <img className="project__media" src={HolidayImg} alt="portfolio Roman Kravets">
-                    </img></a>
-                  <div className="project__details" style={{ color: '#ffffff', backgroundColor: '#CECB4D', pointerEvents: 'none' }}>
-                    <div className="project__details-side project__details-side_left">
-                      <p className="project__description">Holiday</p>
-                      <a className="project__link" href="https://romkravets.github.io/template-holiday-landing_page/" target="_blank" rel="noopener noreferrer"  style={{ color: '#ffffff' }}>Visit site</a>
-                    </div>
-                    <div className="project__details-side project__details-side_right">
-                      <ul className="project__stack">
+                     </img></a>
+                 <div className="project__details" style={{ color: '#ffffff', backgroundColor: '#CECB4D', pointerEvents: 'none' }}>
+                     <div className="project__details-side project__details-side_left">
+                       <p className="project__description">Holiday</p>
+                       <a className="project__link" href="https://romkravets.github.io/template-holiday-landing_page/" target="_blank" rel="noopener noreferrer"  style={{ color: '#ffffff' }}>Visit site</a>
+                     </div>
+                     <div className="project__details-side project__details-side_right">
+                       <ul className="project__stack">
                         <li>HTML</li>
                         <li>SASS</li>
                         <li>Grid</li>
                         <li>Bootstrap</li>
                         <li>Gulp</li>
-                      </ul>
-                      <span className="project__year">2017</span>
-                    </div>
-                  </div>
+                       </ul>
+                       <span className="project__year">2017</span>
+                     </div>
+                     </div>
                 </div>
               </div>
             </div>
@@ -216,7 +216,7 @@ const FullpageWrapper = fullpageProps => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>);
       }} />);
