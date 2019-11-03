@@ -216,7 +216,7 @@ const FullpageWrapper = fullpageProps => {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
 
           </div>);
       }} />);
