@@ -4,6 +4,9 @@ import FortecImg from "../images/fortec.png"
 import AppleImg from "../images/apple.png"
 import CoffeeStoreImg from "../images/coffee-store.png"
 import CheshireCatImg from "../images/cheshire-cat.png"
+import HolidayImg from "../images/holiday.png"
+import CreatorsImg from "../images/creators.png"
+import JoinImg from "../images/join.png"
 
 const FullpageWrapper = fullpageProps => {
   return (
@@ -14,7 +17,7 @@ const FullpageWrapper = fullpageProps => {
       scrollBar= {true}
       licenseKey={"YOUR_KEY_HERE"}
       scrollingSpeed={700}
-      sectionsColor={["#282c34", "#282c34", "#282c34", "#282c34"]}
+      sectionsColor={["#282c34", "#282c34", "#282c34", "#282c34", "#282c34", "#282c34", "#282c34"]}
       scrollHorizontallyKey={"YOUR KEY HERE"} render={({ state, fullpageApi }) => {
         console.log("render prop change", state);
         if (state.callback === "onLeave") {
@@ -50,6 +53,33 @@ const FullpageWrapper = fullpageProps => {
                 </div>
               </div>
             </div>
+
+            <div className="section">
+              <div className="project__inner">
+                <h2 className="project__name" style={{ color: '#ffffff' }}>Join</h2>
+                <div className="project__content">
+                  <a href="https://github.com/romkravets/test" target="_blank" rel="noopener noreferrer">
+                    <img className="project__media" src={JoinImg} alt="portfolio Roman Kravets">
+                    </img></a>
+                  <div className="project__details" style={{ color: '#ffffff', backgroundColor: '#DFC804', pointerEvents: 'none' }}>
+                    <div className="project__details-side project__details-side_left">
+                      <p className="project__description">Join</p>
+                      <a className="project__link" href="https://github.com/romkravets/test" target="_blank" rel="noopener noreferrer"  style={{ color: '#ffffff' }}>Visit site</a>
+                    </div>
+                    <div className="project__details-side project__details-side_right">
+                      <ul className="project__stack">
+                        <li>HTML</li>
+                        <li>SCSS</li>
+                        <li>BEM</li>
+                        <li>Gulp</li>
+                      </ul>
+                      <span className="project__year">2019</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="section">
               <div className="project__inner">
                 <h2 className="project__name" style={{ color: '#ffffff' }}>Fortec</h2>
@@ -119,13 +149,67 @@ const FullpageWrapper = fullpageProps => {
                     <div className="project__details-side project__details-side_right">
                       <ul className="project__stack">
                         <li>React</li>
-                        <li>React Router</li>
                         <li>SCSS</li>
+                        <li>Bootstrap</li>
                         <li>Flexbox</li>
                         <li>BEM</li>
                         <li>Webpack</li>
                       </ul>
                       <span className="project__year">2018</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="section">
+              <div className="project__inner">
+                <h2 className="project__name" style={{ color: '#ffffff' }}>Holiday</h2>
+                <div className="project__content">
+                  <a href="https://romkravets.github.io/template-holiday-landing_page/" target="_blank" rel="noopener noreferrer">
+                    <img className="project__media" src={HolidayImg} alt="portfolio Roman Kravets">
+                    </img></a>
+                  <div className="project__details" style={{ color: '#ffffff', backgroundColor: '#CECB4D', pointerEvents: 'none' }}>
+                    <div className="project__details-side project__details-side_left">
+                      <p className="project__description">Holiday</p>
+                      <a className="project__link" href="https://romkravets.github.io/template-holiday-landing_page/" target="_blank" rel="noopener noreferrer"  style={{ color: '#ffffff' }}>Visit site</a>
+                    </div>
+                    <div className="project__details-side project__details-side_right">
+                      <ul className="project__stack">
+                        <li>HTML</li>
+                        <li>SASS</li>
+                        <li>Grid</li>
+                        <li>Bootstrap</li>
+                        <li>Gulp</li>
+                      </ul>
+                      <span className="project__year">2017</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="section">
+              <div className="project__inner">
+                <h2 className="project__name" style={{ color: '#ffffff' }}>Creators</h2>
+                <div className="project__content">
+                  <a href="https://romkravets.github.io/grid-template/" target="_blank" rel="noopener noreferrer">
+                    <img className="project__media" src={CreatorsImg} alt="portfolio Roman Kravets">
+                    </img></a>
+                  <div className="project__details" style={{ color: '#ffffff', backgroundColor: '#F0650D', pointerEvents: 'none' }}>
+                    <div className="project__details-side project__details-side_left">
+                      <p className="project__description">Creators</p>
+                      <a className="project__link" href="https://romkravets.github.io/grid-template/" target="_blank" rel="noopener noreferrer"  style={{ color: '#ffffff' }}>Visit site</a>
+                    </div>
+                    <div className="project__details-side project__details-side_right">
+                      <ul className="project__stack">
+                        <li>HTML</li>
+                        <li>SASS</li>
+                        <li>BEM</li>
+                        <li>Bootstrap</li>
+                        <li>Gulp</li>
+                      </ul>
+                      <span className="project__year">2017</span>
                     </div>
                   </div>
                 </div>
