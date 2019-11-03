@@ -107,6 +107,7 @@ const FullpageWrapper = fullpageProps => {
                 </div>
               </div>
             </div>
+
             <div className="section">
               <div className="project__inner">
                 <h2 className="project__name" style={{ color: '#ffffff' }}>Apple</h2>
@@ -134,6 +135,7 @@ const FullpageWrapper = fullpageProps => {
                 </div>
               </div>
             </div>
+
             <div className="section">
               <div className="project__inner">
                 <h2 className="project__name" style={{ color: '#ffffff' }}>Coffee Store</h2>
@@ -215,6 +217,7 @@ const FullpageWrapper = fullpageProps => {
                 </div>
               </div>
             </div>
+            
           </div>);
       }} />);
 }
