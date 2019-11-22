@@ -40,7 +40,7 @@ const ContactForm = () => (
             />
             <span className="highlight" />
             <span className="bar" />
-            <label>Massage</label>
+            <label>Message</label>
          </div>
          <div style={{display:"flex","WebkitBoxPack":"center","MsFlexPack":"center", justifyContent:"center"}}>
             <button className="contact-btn btn-light">Send</button>
