@@ -80,7 +80,7 @@ const FullpageWrapper = fullpageProps => {
               </div>
             </div>
 
-            <div className="section">
+            {/* <div className="section">
               <div className="project__inner">
                 <h2 className="project__name" style={{ color: '#ffffff' }}>Fortec</h2>
                 <div className="project__content">
@@ -106,7 +106,7 @@ const FullpageWrapper = fullpageProps => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="section">
               <div className="project__inner">
