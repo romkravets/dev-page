@@ -1,6 +1,6 @@
 import React from "react"
 import ReactFullpage from "@fullpage/react-fullpage"
-import FortecImg from "../images/fortec.png"
+//import FortecImg from "../images/fortec.png"
 import AppleImg from "../images/apple.png"
 import CoffeeStoreImg from "../images/coffee-store.png"
 import CheshireCatImg from "../images/cheshire-cat.png"
