@@ -44,12 +44,6 @@ const AboutPage = () => (
             {/* <h6></h6>
             <p></p> */}
           </div>
-
-          <div className="job job-3">
-            <h3>Graphic Designer</h3>
-            {/* <h6></h6>
-            <p></p> */}
-          </div>
         </div>
       </main>
       <Footer />

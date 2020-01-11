@@ -1,12 +1,14 @@
 import React from "react"
 import ReactFullpage from "@fullpage/react-fullpage"
-//import FortecImg from "../images/fortec.png"
+import FortecImg from "../images/fortec.png"
 import AppleImg from "../images/apple.png"
 import CoffeeStoreImg from "../images/coffee-store.png"
 import CheshireCatImg from "../images/cheshire-cat.png"
-import HolidayImg from "../images/holiday_1.png"
+import HolidayImg from "../images/holiday.png"
 import CreatorsImg from "../images/creator.png"
-import JoinImg from "../images/join_1.png"
+import JoinImg from "../images/join.png"
+import providenceImg from "../images/providence.png"
+import brakfastImg from "../images/brakfast.png"
 
 const FullpageWrapper = fullpageProps => {
   return (
@@ -19,7 +21,6 @@ const FullpageWrapper = fullpageProps => {
       scrollingSpeed={700}
       sectionsColor={["#282c34", "#282c34", "#282c34", "#282c34", "#282c34", "#282c34", "#282c34"]}
       scrollHorizontallyKey={"YOUR KEY HERE"} render={({ state, fullpageApi }) => {
-        console.log("render prop change", state);
         if (state.callback === "onLeave") {
           if (state.direction === "down") {
             console.log("going down..." + state.origin.index);
@@ -27,6 +28,61 @@ const FullpageWrapper = fullpageProps => {
         }
         return (
           <div id="fullpage-wrapper">
+
+            <div className="section">
+              <div className="project__inner">
+                <h2 className="project__name" style={{ color: '#ffffff' }}>Providence</h2>
+                <div className="project__content">
+                  <a href="https://romkravets.github.io/new-providence-template/" target="_blank" rel="noopener noreferrer">
+                    <img className="project__media" src={providenceImg} alt="portfolio Roman Kravets">
+                    </img></a>
+                  <div className="project__details" style={{ color: '#212228', backgroundColor: '#F0F0F1', pointerEvents: 'none' }}>
+                    <div className="project__details-side project__details-side_left">
+                      <p className="project__description">Providence</p>
+                      <a className="project__link" href="https://romkravets.github.io/new-providence-template/" target="_blank" rel="noopener noreferrer" style={{ color: '#212228' }}>Visit site</a>
+                    </div>
+                    <div className="project__details-side project__details-side_right">
+                      <ul className="project__stack">
+                        <li>HTML</li>
+                        <li>SCSS</li>
+                        <li>Flexbox</li>
+                        <li>Vue.js</li>
+                        <li>Webpack</li>
+                      </ul>
+                      <span className="project__year">2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="section">
+              <div className="project__inner">
+                <h2 className="project__name" style={{ color: '#ffffff' }}>Breakfast Restaurant</h2>
+                <div className="project__content">
+                  <a href="https://romkravets.github.io/breakfast-restaurant-landing-page-template/" target="_blank" rel="noopener noreferrer">
+                    <img className="project__media" src={brakfastImg} alt="portfolio Roman Kravets">
+                    </img></a>
+                  <div className="project__details" style={{ color: '#212228', backgroundColor: '#E5AF57', pointerEvents: 'none' }}>
+                    <div className="project__details-side project__details-side_left">
+                      <p className="project__description">Breakfast restauran</p>
+                      <a className="project__link" href="https://romkravets.github.io/breakfast-restaurant-landing-page-template/" target="_blank" rel="noopener noreferrer" style={{ color: '#212228' }}>Visit site</a>
+                    </div>
+                    <div className="project__details-side project__details-side_right">
+                      <ul className="project__stack">
+                        <li>HTML</li>
+                        <li>SCSS</li>
+                        <li>Flexbox</li>
+                        <li>JS</li>
+                        <li>Webpack</li>
+                      </ul>
+                      <span className="project__year">2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="section">
               <div className="project__inner">
                 <h2 className="project__name" style={{ color: '#ffffff' }}>Cheshire Cat</h2>
@@ -80,7 +136,7 @@ const FullpageWrapper = fullpageProps => {
               </div>
             </div>
 
-            {/* <div className="section">
+            <div className="section">
               <div className="project__inner">
                 <h2 className="project__name" style={{ color: '#ffffff' }}>Fortec</h2>
                 <div className="project__content">
@@ -90,6 +146,7 @@ const FullpageWrapper = fullpageProps => {
                   <div className="project__details" style={{ color: '#ffffff', backgroundColor: '#007462', pointerEvents: 'none' }}>
                     <div className="project__details-side project__details-side_left">
                       <p className="project__description">Fortec</p>
+                      <a className="project__link" href="https://fortec.com.ua" target="_blank" rel="noopener noreferrer" style={{ color: '#ffffff' }}>Visit site</a>
                     </div>
                     <div className="project__details-side project__details-side_right">
                       <ul className="project__stack">
@@ -106,7 +163,7 @@ const FullpageWrapper = fullpageProps => {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
 
             <div className="section">
               <div className="project__inner">

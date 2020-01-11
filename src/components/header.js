@@ -1,4 +1,3 @@
-// import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import { Link } from "gatsby"
@@ -16,7 +15,6 @@ class Header extends React.Component {
   fetchMenus() {
     setTimeout(() => {
       this.setState(oldState => {
-        console.log(this.state)
         const newState = Object.assign({}, oldState)
         newState.menu = [
           {
@@ -91,7 +89,6 @@ class Header extends React.Component {
         </div>
         <div className={classMain}>
           <div className={classBranding}>
-            {/* <div className="portrait"></div> */}
           </div>
           <ul className={classMenuNav}>{listItems}</ul>
         </div>
