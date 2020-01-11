@@ -23,7 +23,7 @@ const FullpageWrapper = fullpageProps => {
       scrollHorizontallyKey={"YOUR KEY HERE"} render={({ state, fullpageApi }) => {
         if (state.callback === "onLeave") {
           if (state.direction === "down") {
-            console.log("going down..." + state.origin.index);
+            // console.log("going down..." + state.origin.index);
           }
         }
         return (
