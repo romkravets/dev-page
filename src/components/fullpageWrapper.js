@@ -7,8 +7,8 @@ import CheshireCatImg from "../images/cheshire-cat.png"
 import HolidayImg from "../images/holiday.png"
 import CreatorsImg from "../images/creator.png"
 import JoinImg from "../images/join.png"
-//import providenceImg from "../images/providence.png"
-//import brakfastImg from "../images/brakfast.png"
+import providenceImg from "../images/providence.png"
+import brakfastImg from "../images/brakfast.png"
 
 const FullpageWrapper = fullpageProps => {
   return (
@@ -29,7 +29,7 @@ const FullpageWrapper = fullpageProps => {
         return (
           <div id="fullpage-wrapper">
 
-            {/* <div className="section">
+            <div className="section">
               <div className="project__inner">
                 <h2 className="project__name" style={{ color: '#ffffff' }}>Providence</h2>
                 <div className="project__content">
@@ -54,8 +54,8 @@ const FullpageWrapper = fullpageProps => {
                   </div>
                 </div>
               </div>
-            </div> */}
-{/* 
+            </div>
+
             <div className="section">
               <div className="project__inner">
                 <h2 className="project__name" style={{ color: '#ffffff' }}>Breakfast Restaurant</h2>
@@ -81,7 +81,7 @@ const FullpageWrapper = fullpageProps => {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
 
             <div className="section">
               <div className="project__inner">
