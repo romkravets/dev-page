@@ -24,12 +24,9 @@ const AboutPage = () => (
           <div className="bio">
             <h3 className="text-secondary" style={{ color: 'rgb(238, 206, 26)' }}>BIO</h3>
             <p>
-              – Hello! I’m a skilled front-end developer with +1 years of
-              experience. I'm involved in self education in web development
-              area: completing additional courses, studying online and
-              practicing at development studio and freelance. I strive to craft
-              precise, responsive, fast, easy-to-use environments with both
-              strong purpose and great looks.
+              I am a freelance Front-end developer with a passion for providing my clients with modern, clean and fully validated sites.
+              My skills include React, Redux, HTML5, CSS3, Bootstrap, jQuery and others.
+              In over 4 years, I have worked for a variety of clients, from individuals to corporations. I pride myself on providing frequent and professional communication to all of my clients. 
             </p>
           </div>
 
