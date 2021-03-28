@@ -31,13 +31,18 @@ const AboutPage = () => (
           </div>
 
           <div className="job job-1">
-            <h3>HTML&CSS code</h3>
+            <h3>Front-end developer</h3>
             {/* <h6></h6>
             <p></p> */}
           </div>
 
           <div className="job job-2">
-            <h3>Front End Developer</h3>
+            <h3>HTML&CSS code</h3>
+            {/* <h6></h6>
+            <p></p> */}
+          </div>
+          <div className="job job-2">
+            <h3>Computer Science Teacher</h3>
             {/* <h6></h6>
             <p></p> */}
           </div>
