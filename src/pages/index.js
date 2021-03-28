@@ -13,7 +13,7 @@ const IndexPage = () => (
           <span className="text-secondary" style={{ color: 'rgb(238, 206, 26)' }}>Kravets</span>
         </h1>
         <h2 className="sm-heading">
-          Web Developer, HTML & CSS Coder
+         Front-end developer | Сomputer Science Teacher
         </h2>
         <SocIcons />
       </div>
